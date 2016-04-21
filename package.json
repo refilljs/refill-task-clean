@@ -1,0 +1,38 @@
+{
+  "name": "zkflow-task-clean",
+  "version": "0.0.0",
+  "description": "Clean gulp task in ZKflow format",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-clean.git"
+  },
+  "keywords": [
+    "zkflow",
+    "angular",
+    "tasks",
+    "gulp"
+  ],
+  "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-clean/issues"
+  },
+  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-clean",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "zkflow-node": "1.0.0"
+  },
+  "peerDependencies": {
+    "gulp": "^3.9.1",
+    "zkflow": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=4.2",
+    "npm": ">=3.3.3"
+  },
+  "dependencies": {
+    "del": "2.2.0",
+    "gulp-zkflow-utils": "0.5.0"
+  }
+}
