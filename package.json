@@ -1,6 +1,6 @@
 {
   "name": "zkflow-task-clean",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clean gulp task in ZKflow format",
   "main": "src/index.js",
   "repository": {
