@@ -2,7 +2,7 @@
   "name": "refill-task-clean",
   "version": "1.0.0",
   "description": "Clean gulp task in Refill format",
-  "main": "src/index.js",
+  "main": "src/taskClean.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zaklinaczekodu/refill-task-clean.git"
@@ -25,14 +25,15 @@
   },
   "devDependencies": {
     "gulp": "3.9.1",
-    "zkflow-node": "1.0.0"
+    "refill-node": "^2.0.0"
   },
   "peerDependencies": {
     "gulp": "^3",
-    "zkflow": "^1"
+    "refill": "^1"
   },
   "dependencies": {
     "del": "2.2.2",
-    "gulp-zkflow-utils": "0.5.0"
+    "refill-logger": "^1.0.3",
+    "refill-next-handler": "^1.1.1"
   }
 }
