@@ -1,14 +1,14 @@
 {
-  "name": "zkflow-task-clean",
+  "name": "refill-task-clean",
   "version": "1.0.0",
-  "description": "Clean gulp task in ZKflow format",
+  "description": "Clean gulp task in Refill format",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-clean.git"
+    "url": "https://github.com/zaklinaczekodu/refill-task-clean.git"
   },
   "keywords": [
-    "zkflow",
+    "refill",
     "angular",
     "tasks",
     "gulp"
@@ -16,23 +16,23 @@
   "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-clean/issues"
+    "url": "https://github.com/zaklinaczekodu/refill-task-clean/issues"
   },
-  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-clean",
+  "homepage": "https://github.com/zaklinaczekodu/refill-task-clean",
+  "engines": {
+    "node": ">=4.2",
+    "npm": ">=3.3.3"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
     "zkflow-node": "1.0.0"
   },
   "peerDependencies": {
-    "gulp": "^3.9.1",
-    "zkflow": "^1.1.0"
-  },
-  "engines": {
-    "node": ">=4.2",
-    "npm": ">=3.3.3"
+    "gulp": "^3",
+    "zkflow": "^1"
   },
   "dependencies": {
-    "del": "2.2.0",
+    "del": "2.2.2",
     "gulp-zkflow-utils": "0.5.0"
   }
 }
