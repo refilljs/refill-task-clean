@@ -1,6 +1,6 @@
 {
   "name": "refill-task-clean",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Clean gulp task in Refill format",
   "main": "src/taskClean.js",
   "repository": {
