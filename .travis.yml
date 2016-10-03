@@ -1,14 +1,10 @@
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - gcc-5
-      - g++-5
+sudo: required
+dist: trusty
 
 language: node_js
 
 node_js:
+  - 6
   - 5
   - 4
 
@@ -16,12 +12,7 @@ os:
   - linux
   - osx
 
-env:
-  global:
-    - CC=gcc-5 CXX=g++-5
-
 before_install:
-  - npm config set progress false
   - npm install -g npm@latest
 
 script:
@@ -35,4 +26,4 @@ deploy:
     node: 5
     condition: $TRAVIS_OS_NAME == linux
     tags: true
-    repo: zaklinaczekodu/zkflow-task-clean
+    repo: refilljs/refill-task-clean
